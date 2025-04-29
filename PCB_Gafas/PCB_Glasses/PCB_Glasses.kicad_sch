@@ -1896,16 +1896,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 59.69) (xy 91.44 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a087c41-4b66-4549-b895-0a24a16ca98b")
-	)
-	(wire
-		(pts
 			(xy 78.74 110.49) (xy 78.74 116.84)
 		)
 		(stroke
@@ -2026,16 +2016,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 64.77) (xy 91.44 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0d406f-c558-4528-987b-46d728cdb8bb")
-	)
-	(wire
-		(pts
 			(xy 81.28 116.84) (xy 81.28 110.49)
 		)
 		(stroke
@@ -2073,16 +2053,6 @@
 			(type default)
 		)
 		(uuid "9784bbf1-c0aa-4b54-a1f9-c68156e45c7f")
-	)
-	(wire
-		(pts
-			(xy 83.82 57.15) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e718f8c-8976-452a-84c2-73b2d4b54624")
 	)
 	(wire
 		(pts
@@ -2196,16 +2166,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 91.44 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24e71a4-45cf-4989-b69c-639325399f8a")
-	)
-	(wire
-		(pts
 			(xy 58.42 92.71) (xy 62.23 92.71)
 		)
 		(stroke
@@ -2244,17 +2204,6 @@
 			(justify right bottom)
 		)
 		(uuid "2744417f-4e32-4744-9ea0-d92284a4522f")
-	)
-	(label "SDA"
-		(at 88.9 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a1d7f8f-1e2c-4c47-a6a5-ce19760b16b3")
 	)
 	(label "D2"
 		(at 38.1 82.55 0)
@@ -2321,17 +2270,6 @@
 			(justify right bottom)
 		)
 		(uuid "82090694-0e52-4157-b72f-b63a6f191dc0")
-	)
-	(label "SCL"
-		(at 88.9 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "962f59eb-b03c-4094-b705-b00d6e881f16")
 	)
 	(label "D1"
 		(at 38.1 80.01 0)
@@ -2661,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 49.53 95.25 0)
 			(effects
 				(font
@@ -2698,82 +2636,6 @@
 			(project ""
 				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 96.52 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e5662d3-b7d6-45ed-ba69-cee9f237011e")
-		(property "Reference" "J3"
-			(at 97.79 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 97.79 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
-			(at 96.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 96.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "818f4849-262e-4518-be85-f192a9b20cf0")
-		)
-		(pin "2"
-			(uuid "fec588a2-38b9-4ee5-a3b9-01d016b2680b")
-		)
-		(pin "3"
-			(uuid "27dc85a2-c36f-4f92-a3a4-add25e0781d8")
-		)
-		(pin "4"
-			(uuid "738c95dc-6a5c-4d59-92d3-ea49a8c3dbab")
-		)
-		(instances
-			(project "PCB_Glasses"
-				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3404,73 +3266,6 @@
 			(project ""
 				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fd37e98-068d-4c2b-b779-427d5fa0aace")
-		(property "Reference" "#PWR011"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d216087f-c145-4e6e-b4ff-81ff51a7b120")
-		)
-		(instances
-			(project "PCB_Glasses"
-				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4139,73 +3934,6 @@
 			(project "PCB_Glasses"
 				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 83.82 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbb64cac-163a-414d-86e9-7e3ade98ff07")
-		(property "Reference" "#PWR010"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 80.01 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca23d173-ef71-4680-80c0-34ccc36e3c61")
-		)
-		(instances
-			(project "PCB_Glasses"
-				(path "/7cf9a65e-b415-4ec2-93ed-1a2283686b83"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
