@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Transformer_10mm")(type "KiCad")(uri "S:/Desktop/MENTORU - PCB/MENTORU/KiCad_FootPrints/Transformer/Transformer_10mm.pretty")(options "")(descr ""))
+)
