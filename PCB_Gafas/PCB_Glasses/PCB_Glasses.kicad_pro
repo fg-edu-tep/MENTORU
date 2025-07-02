@@ -212,6 +212,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -481,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fab/",
+      "plot": "Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
